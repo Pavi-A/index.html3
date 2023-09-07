@@ -1,20 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>
-		Image Rotate Animation
-	</title>
-    
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Cakes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Welcome to Delicious Cakes</h1>
+        <p>Indulge in the finest cakes that will delight your taste buds.</p>
+        <a href="#menu" class="cta-button">View Menu</a>
+    </section>
+    
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="cake1.jpg" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>A rich and moist chocolate cake topped with ganache.</p>
+            <span>$20.99</span>
+        </div>
+        <!-- Repeat the above structure for more menu items -->
 
-    <div>
-        <img src="https://picsum.photos/id/61/300/300" alt="City">
-        <img src="https://picsum.photos/id/95/300/300" alt="Trees">
-    </div>
-
+        <a href="#contact" class="cta-button">Place an Order</a>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are passionate about creating delicious and beautiful cakes for every occasion.</p>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or want to place an order, please contact us:</p>
+        <address>
+            <p>Email: info@deliciouscakes.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </address>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Delicious Cakes</p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,128 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #F7D794;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero section styling */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF6B6B;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Menu section styling */
+.menu {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+}
+
+.menu-item img {
+    max-width: 100%;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.menu-item p {
+    margin-top: 10px;
+}
+
+.menu-item span {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* About section styling */
+.about {
+    background-color: #F3D250;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Contact section styling */
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact address {
+    font-style: normal;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
